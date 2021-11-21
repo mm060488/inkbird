@@ -2,7 +2,7 @@ version: "3"
 
 services:
   inkbird:
-    image: jshridha/inkbird:1.1.1
+    build: https://github.com/mm060488/inkbird.git
     network_mode: host
     cap_add:
       - SYS_ADMIN
